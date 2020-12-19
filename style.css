@@ -1,0 +1,108 @@
+.body1 {
+   color: white;
+   margin-top: 200px;
+   margin-left: 700px;
+   
+}
+.text1 {
+    color: violet;
+}
+.main1 {
+    text-align: center;
+    color: tan;
+}
+.infa {
+    text-align: center;
+    color: white;
+}
+.main2 {
+    color: white;
+}
+body {
+    position: fixed;
+    background: url(https://img2.goodfon.ru/wallpaper/nbig/0/29/kosmos-3d-art-planeta-sputnik.jpg) no-repeat;
+    background-size: 100%;
+    
+    
+}
+.ava {
+    border: 1px solid rgb(255, 0, 234); 
+    width: 130px;
+    padding: 5px;
+    margin-top: -700px;
+}
+.logo {
+    color: firebrick;
+    position: relative;
+    left: 181px;
+    margin-top: -106px;
+}
+a {
+    text-decoration: none;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .menu__link {
+    display: inline-block;
+    color: #6200ff;
+    text-decoration: none;
+    position: relative;
+    padding: 14px 0;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 0.040em;
+  }
+  
+  .menu__link svg {
+    fill: none;
+    stroke: #0004ff;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 338;
+    stroke-dashoffset: 338;
+    stroke-linecap: round;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% + 60px);
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: stroke-dashoffset 0s 0.2s, opacity 0.2s;
+    transition: stroke-dashoffset 0s 0.2s, opacity 0.2s;
+    z-index: -1;
+  }
+  
+  .menu__link--active svg {
+    stroke: #ff4c4c;
+  }
+  
+  .menu__link--active svg,
+  .menu__link:hover svg {
+    stroke-dashoffset: 0;
+    opacity: 1;
+    -webkit-transition: opacity 0s, stroke-dashoffset 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 0s, stroke-dashoffset 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+.menu {
+    text-align: center;
+    display: flex;
+    margin-left: 250px ;
+    margin-top: 40px;
+    padding: 0px;
+    justify-content: space-around;
+}
+.menu__link {
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
